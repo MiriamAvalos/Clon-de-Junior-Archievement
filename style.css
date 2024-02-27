@@ -6,8 +6,25 @@ body{
 .menNav{
     color: #286075;
     font-weight: 900;
-    
+ 
 
+}
+
+.tituloSolucion{
+    font-size: 36px;
+    color: #286075;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+.navDona{
+    background-color: #286075;
+    padding: 13px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 900;
 }
 
 .footerStyle{
