@@ -1,0 +1,36 @@
+body{
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.menNav{
+    color: #286075;
+    font-weight: 900;
+    
+
+}
+
+.footerStyle{
+    background-color: #5e5e5e;
+    color:#ffffff;
+   
+}
+
+.PoliticaDePrivacidad{
+    color: #009fae;
+}
+
+.imageSolucion{
+ width: 170px;
+ line-height: 0;
+ border: 1px solid turquoise;
+ padding: 8px;
+
+ 
+}
+
+.textSolucion{
+    font-size: 18px;
+    color: #333333;
+
+}
