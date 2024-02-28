@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Añade los scripts de Bootstrap y jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,20 +20,64 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
     <header class="container">
-        <div class="row">
-      
-            <img class="col-auto " style="max-width: 300px;" src="./imagenes/logo.png" href="https://junior.org.ar/" alt="logo de junior">
-       
-             <ul class="col-auto d-flex justify-content-end align-items-center font-size: 24px;">
-                <a class="list-unstyled m-4 text-decoration-none menNav" href="https://junior.org.ar/"><li>HOME</li></a>
-                <a class="list-unstyled m-4 text-decoration-none menNav" href="https://junior.org.ar/nosotros/"><li>NOSOTROS</li></a>
-                <a class="list-unstyled m-4 text-decoration-none menNav" href="https://junior.org.ar/inscripciones/"><li>INSCRIPCIONES</li></a>
-                <a class="list-unstyled m-4 text-decoration-none menNav" href="https://junior.org.ar/novedades/"><li>NOVEDADES</li></a>
-                <a class="list-unstyled m-4 text-decoration-none navDona" href="https://junior.org.ar/donantes/"><li>DONÁ</li></a>
-                <a class="list-unstyled m-4 text-decoration-none menNav" href="https://junior.org.ar/contacto/"><li>CONTACTO</li></a>
-            </ul>
-        </div>
-        </header>
+      <div class="row">
+          <img class="col-auto" style="max-width: 300px;" src="./imagenes/logo.png" href="https://junior.org.ar/" alt="logo de junior">
+          <div class="col-auto d-flex justify-content-end align-items-center font-size:24px;">
+              <a class="list-unstyled m-3 text-decoration-none menNav" href="#">
+                  HOME
+              </a>
+              <div class="dropdown">
+                  <a class="list-unstyled m-3 text-decoration-none menNav dropdown-toggle" href="#" role="button" id="nosotrosDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      NOSOTROS
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="nosotrosDropdown">
+                      <a class="dropdown-item" href="https://junior.org.ar/nosotros/">QUIÉNES SOMOS</a>
+                      <a class="dropdown-item" href="#">PROGRAMAS</a>
+                      <a class="dropdown-item" href="https://junior.org.ar/plan-estrategico/">PLAN ESTRATÉGICO</a>
+                      <a class="dropdown-item" href="#">RENDICIÓN DE CUENTAS</a>
+                      <a class="dropdown-item" href="#">SEDES</a>
+                      <a class="dropdown-item" href="https://junior.org.ar/nosotros/consejo/">CONSEJO</a>
+                      <a class="dropdown-item" href="#">EQUIPO</a>
+                      <a class="dropdown-item" href="#">ALIADOS</a>
+                  </div>
+              </div>
+  
+              <a class="list-unstyled m-3 text-decoration-none menNav" href="https://junior.org.ar/inscripciones/">
+                  INSCRIPCIONES
+              </a>
+  
+              <div class="dropdown">
+                  <a class="list-unstyled m-3 text-decoration-none menNav dropdown-toggle" href="#" role="button" id="sumateDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      SUMATE
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="sumateDropdown">
+                      <a class="dropdown-item" href="#">ALUMNI</a>
+                      <a class="dropdown-item" href="#">VOLUNTARIADO</a>
+                  </div>
+              </div>
+  
+              <div class="dropdown">
+                  <a class="list-unstyled m-3 text-decoration-none menNav dropdown-toggle" href="#" role="button" id="novedadesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      NOVEDADES
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="novedadesDropdown">
+                      <a class="dropdown-item" href="https://junior.org.ar/memoria/">MEMORIA 2022</a>
+                      <a class="dropdown-item" href="https://junior.org.ar/aniversario/">30 AÑOS</a>
+                  </div>
+              </div>
+  
+              <a class="list-unstyled m-3 text-decoration-none navDona" href="https://junior.org.ar/donantes/">
+                  DONÁ
+              </a>
+  
+              <a class="list-unstyled m-3 text-decoration-none menNav" href="https://junior.org.ar/contacto/">
+                  CONTACTO
+              </a>
+          </div>
+      </div>
+  </header>
+  
+  
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
