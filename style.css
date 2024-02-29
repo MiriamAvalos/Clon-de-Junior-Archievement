@@ -10,6 +10,10 @@ body{
 
 }
 
+.menNav:hover{
+    color: #009fae;
+}
+
 .tituloSolucion{
     font-size: 36px;
     color: #286075;
@@ -55,3 +59,22 @@ body{
     color: #333333;
 
 }
+
+.dropdown-item{
+    color: #a1b1bc;
+    text-align: left;
+    padding: 11px 14px 11px 14px !important;
+    font-size: 13px;
+    margin: 0;
+}
+.dropdown-menu{
+    border-top: 3px solid #009fae;
+    background: #ffffff;
+    margin-top: 30%;
+    border-left: 1px solid #ecf0f1;
+   
+}
+
+
+    
+
