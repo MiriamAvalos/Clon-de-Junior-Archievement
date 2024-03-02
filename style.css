@@ -6,8 +6,11 @@ body{
 .menNav{
     color: #286075;
     font-weight: 900;
-    
+}
 
+.contentHeader{
+  overflow: auto; 
+  
 }
 
 .menNav:hover{
