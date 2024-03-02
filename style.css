@@ -8,11 +8,6 @@ body{
     font-weight: 900;
 }
 
-.contentHeader{
-  overflow: auto; 
-  
-}
-
 .menNav:hover{
     color: #009fae;
 }
